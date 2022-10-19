@@ -7,5 +7,4 @@ from reaction.models import postData
 class PostReaction(admin.ModelAdmin):
     class Meta:
         model = postData
-        list_filter  = ('title', 'reaction')
 admin.site.register(postData)
